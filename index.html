@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DailySap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="main-wrapper container-fluid">
+
+
+        <section class="login-section">
+            <div class="wrapper">
+                <div class="form-wrapper animated flipInX">
+                    <div class="logoWrapper text-center">
+                        <img width="150" alt="DailySnap" src="images/dailysnapLogo.png" />
+                    </div>
+                    <div class="form-header form-group">
+                        <h3>Login</h3>
+                    </div>
+                    <form name="loginForm">
+                        <div class="form-group">
+                            <input class="form-control" type="text" data-new-placeholder="Enter your Email" name="email" placeholder="Email" label-batter/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" name="password" data-new-placeholder="Enter your Password" placeholder="Password" label-batter/>
+                        </div>
+                        <div class="form-group text-center">
+                            <button class="btn btn-primary" type="button" name="submit">Login</button>
+                        </div>
+                        <div class="h-row text-center">OR</div>
+                        <div class="form-group text-center">
+                            <a class="" role="button" onclick="gotoPage(0)">Signup</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="signup-section" style="display:none;">
+            <div class="wrapper">
+                <div class="form-wrapper animated flipInX">
+                    <div class="form-header form-group">
+                        <h3>Sign up</h3>
+                    </div>
+                    <form name="signForm">
+                        <div class="form-group">
+                            <input class="form-control" type="text" data-new-placeholder="Enter your full name" name="name" placeholder="Name" label-batter/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" data-new-placeholder="Enter your email" name="email" placeholder="Email" label-batter/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" data-new-placeholder="Enter password" name="password" placeholder="Password" label-batter/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="password" data-new-placeholder="Enter confrim password" name="confrimPassword" placeholder="Confrim Password" label-batter/>
+                        </div>
+                        <div class="form-group text-right">
+                            <a role="button" class="pull-left" onclick="gotoPage(1)"><i class="icon-arrow-left icons"></i>Back</a>
+                            <button class="btn btn-primary" type="button" name="password">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="bg-section"></section>
+        <footer class="copy-text">
+            <div class="text-center">&copy;2017 copyrights reserved</div>
+        </footer>
+    </div>
+</body>
+
+</html>

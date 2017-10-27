@@ -1,0 +1,171 @@
+@import url("css/simple-line-icons.min.css");
+.form-wrapper {
+    max-width: 400px;
+    margin: 40px auto 0;
+    padding: 30px 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.form-wrapper .form-group {
+    margin-bottom: 30px;
+}
+
+.icons {
+    font-size: 12px;
+    padding-right: 2px;
+    vertical-align: top;
+}
+
+.main-wrapper {
+    position: relative;
+    color: #444;
+    background-image: url('images/bg.jpg');
+    background-attachment: fixed;
+    background-size: 150px;
+    min-height: 100vh;
+    background-position: 0 0;
+    -webkit-animation: mymove 100s infinite;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 100s infinite;
+}
+
+.lb_label.top {
+    top: -15px !important;
+    min-width: 250px;
+    max-width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+input.form-control {
+    border-radius: 2px;
+}
+
+.h-row {
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.h-row:after,
+.h-row:before {
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    background-color: #555;
+    top: 50%;
+    right: 0;
+}
+
+.h-row:before {
+    left: 0;
+}
+
+[role="button"] {
+    color: #666;
+}
+
+.copy-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 10px;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px #d27683;
+}
+
+.btn {
+    border-radius: 2px;
+    min-width: 150px;
+}
+
+/*
+.btn-primary {
+    background-color: #673AB7;
+}
+*/
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes mymove {
+    0% {
+        background-position: 0 100%;
+    }
+    0% {
+        background-position: 0 100%;
+    }
+    10% {
+        background-position: 0 90%;
+    }
+    20% {
+        background-position: 0 80%;
+    }
+    30% {
+        background-position: 0 70%;
+    }
+    40% {
+        background-position: 0 60%;
+    }
+    50% {
+        background-position: 0 50%;
+    }
+    60% {
+        background-position: 0 40%;
+    }
+    70% {
+        background-position: 0 30%;
+    }
+    80% {
+        background-position: 0 20%;
+    }
+    90% {
+        background-position: 0 10%;
+    }
+    100% {
+        background-position: 0 0%;
+    }
+}
+
+/* Standard syntax */
+
+@keyframes mymove {
+    0% {
+        background-position: 0 100%;
+    }
+    10% {
+        background-position: 0 90%;
+    }
+    20% {
+        background-position: 0 80%;
+    }
+    30% {
+        background-position: 0 70%;
+    }
+    40% {
+        background-position: 0 60%;
+    }
+    50% {
+        background-position: 0 50%;
+    }
+    60% {
+        background-position: 0 40%;
+    }
+    70% {
+        background-position: 0 30%;
+    }
+    80% {
+        background-position: 0 20%;
+    }
+    90% {
+        background-position: 0 10%;
+    }
+    100% {
+        background-position: 0 0%;
+    }
+}
